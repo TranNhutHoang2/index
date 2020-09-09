@@ -1,0 +1,262 @@
+@font-face {
+  font-family: font1;
+  src: url("../font/BebasNeue-Bold.otf");
+}
+@font-face {
+  font-family: font2;
+  src: url("../font/Silhouetto-Script.ttf");
+}
+@font-face {
+  font-family: font3;
+  src: url("../font/MYRIADPRO-REGULAR.OTF");
+}
+body{
+	height: 960px;
+}
+.container{
+	width: 1720px;
+	height: auto;
+	background: #989898;
+	margin: 0 auto;
+	scroll-behavior: smooth;
+}
+.header{
+	width: 90%;
+	height: 50px;
+	background: #E2E2E2;
+	position: fixed;
+}
+.menu{
+	width: 80%;
+	height: 50px;
+	float: right;
+}
+.header img{
+	margin-top: 6.5px;
+	margin-left: 6.5px;
+}
+.header .menu ul{
+	list-style: none;
+}
+.header .menu ul li{
+	float: right;
+	margin-right: 50px;
+	margin-top: -2px;
+}
+.header .menu ul li a{
+	text-decoration: none;
+	color: #565656;
+	font-family: font1;
+	font-size: 20px;
+}
+.header .menu ul li:hover a{
+	border-bottom: #565656 3px solid;
+}
+.content{
+	width: 100%;
+	height: 3550px;
+	background: #B79696;
+}
+.home{
+	width: 100%;
+	height: 780px;
+	padding-top: 70px;
+	background: url("../images/103843301_294845348586385_8025056695890330469_n-01-01.jpg");
+}
+.home span{
+	margin-left: 810px;
+}
+.ava{
+	width: 310px;
+	height: 470px;
+	background: #CC6667;
+	margin: 0 auto;
+	margin-top: 130px;
+}
+.ava-text{
+	width: 220px;
+	height: 310px;
+	float: right;
+	margin-top: -319px;
+	margin-right: 460px;
+}
+.skill{
+	width: 100%;
+	height: 900px;
+	background: #F6F7F9;
+}
+.skill-1{
+	width: 858px;
+	height: 440px;
+	background: url("../images/sdasdasd-01.jpg");
+	float: left;
+}
+.skill-2{
+	width: 858px;
+	height: 440px;
+	border-left: 2px #686868 solid;
+	float: right;
+}
+.skill-3{
+	width: 860px;
+	height: 430px;
+	float: left;
+	margin-top: 30px;
+}
+.skill-4{
+	width: 858px;
+	height: 430px;
+	border-left: 2px #686868 solid;
+	float: right;
+	margin-top: 30px;
+	background: url("../images/SADAFADF-01-01.jpg");
+}
+.about{
+	width: 100%;
+	height: 640px;
+	background: url("../images/dDdafadfadf-01.jpg");
+	padding-top: 260px;
+}
+.box{
+	width: 1475px;
+	height: 425px;
+	margin: 0 auto;
+}
+.box1{
+	width: 125px;
+	height: 50px;
+	float: left;
+}
+.box2{
+	width: 675px;
+	height: 425px;
+	background: #FFFFFF;
+	float: left;
+	outline: 4px #565656 solid;
+	position: relative;
+}
+.label{
+	width: 70px;
+	height: 70px;
+	background: #565656;
+	border-radius: 100px;
+	position: absolute;
+	color: aliceblue;
+	top: 180px;
+	text-align: center;
+	opacity: 0;
+	transition: all 0.3s linear;
+	left: 0px;
+}
+.box2:hover .label{
+	opacity: 1;
+	left: 310px;
+}
+.box2 img{
+	opacity: 1;
+	transition: all 0.3s linear;
+}
+.box2:hover img{
+	opacity: 0.5;
+}
+.textbox{
+	width: 1030px;
+	height: 50px;
+	margin: 0 auto;
+}
+.text1{
+	width: 300px;
+	height: 50px;
+	float: left;
+}
+.text2{
+	width: 300px;
+	height: 50px;
+	float: right;
+}
+.button-box{
+	width: 980px;
+	height: 50px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.readmore-button{
+	width: 145px;
+	height: 50px;
+	background: #FFFFFF;
+	float: left;
+	text-align: center;
+	line-height: 5px;
+	outline: 3px #565656 solid;
+}
+.readmore-gap{
+	width: 690px;
+	float: left;
+	height: 50px;
+}
+.readmore-button:hover{
+	background: #000000;
+	outline: 0px;
+}
+.readmore-button:hover p{
+	color: aliceblue;
+}
+.contract{
+	width: 100%;
+	height: 810px;
+	background: #F6F7F9;
+	padding-top: 90px;
+}
+.contract-box1{
+	width: 1170px;
+	height: 150px;
+	margin: 0 auto;
+	margin-top: 95px;
+}
+.contract-box-link1{
+	width: 150px;
+	height: 150px;
+	background: url(../images/asdasfaf-01.png);
+	float: left;
+}
+.contract-box-link2{
+	width: 150px;
+	height: 150px;
+	background: url(../images/asdasdasd-01.png);
+	float: left;
+}
+.contract-box-link3{
+	width: 150px;
+	height: 150px;
+	background: url(../images/xcasdcxc-01.png);
+	float: left;
+}
+.contract-box-gap{
+	width: 360px;
+	float: left;
+	height: 150px
+}
+.contract-box2{
+	width: 1170px;
+	height: 150px;
+	margin: 0 auto;
+	margin-top: 170px;
+}
+.contract-box-link4{
+	width: 150px;
+	height: 150px;
+	background: url(../images/asdasd-01.png);
+	float: left;
+}
+.contract-box-link5{
+	width: 150px;
+	height: 150px;
+	background: url(../images/xcasdcxc-01.png);
+	float: left;
+}
+.contract-box-link6{
+	width: 150px;
+	height: 168px;
+	background: url(../images/asdsdad-01.png);
+	float: left;
+}
